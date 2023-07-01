@@ -1,9 +1,9 @@
-var canvas = new fabric.Canvas('myCanvas');
+var canvas = new fabric.Canvas('my_canvas');
  var x= document.getElementById("myAudio");
 
 function new_image()
 {
-    farbic.Image.fromURL(BirthdayImage.jpg,function(Img){
+    farbic.Image.fromURL('BirthdayImage.jpg',function(Img){
         block_image_objectt=Img;
         block_image_object.scaleToWidth(700);
         block_image_object.scaleToHeight(510);
